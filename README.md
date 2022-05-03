@@ -1,4 +1,4 @@
-# SymfonyPMAPP
+# SymfonyPMApp
 
 A SymfonyPMApp is a simple app used for handling project management features using Symfony as back-end and React as front-end.
 
