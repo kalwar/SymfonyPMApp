@@ -8,7 +8,8 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SpaController extends AbstractController
 {
-    #[Route('/{reactRouting}', name: 'app_home', requirements: ['reactRouting' => "^(?!api).+"], defaults: ["reactRouting" => null])]
+    #[Route('/{reactRoute}', name: 'app_home', requirements:['reactRoute'=>"^(?!api).+"], 
+    defaults:["reactRoute"=>null])]
     public function index(): Response
     {
         return $this->render('spa/index.html.twig');
