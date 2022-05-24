@@ -91,3 +91,4 @@ class ProjectController extends AbstractController
         return $this->json('Deleted a project succesfully with id ' .$id);
 
     }
+}
