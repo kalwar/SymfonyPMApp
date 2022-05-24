@@ -16,6 +16,10 @@ SymfonyPMApp is a full-stack app used for handling project management features u
 7. To stop the app execute: `symfony server:stop`
 8. Note: You will need to have local database setup to run this app
 
+# Production deployment
+
+SymfonyPMApp is currently deployed at heroku, https://ancient-lake-39202.herokuapp.com/
+
 # Tech stack
 
 1.  [Symfony](https://symfony.com/)
